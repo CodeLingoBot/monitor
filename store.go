@@ -89,7 +89,7 @@ func (s *MonitorStore) GetMonitorsNamed(group_name string) *MonitorGroup {
 
 }
 
-// GetMonitorsNamed finds or creates a MonitorGroup using automatic name
+// GetMonitors finds or creates a MonitorGroup using automatic name
 // selection
 func (s *MonitorStore) GetMonitors() *MonitorGroup {
 	return s.GetMonitorsNamed(PackageName())
